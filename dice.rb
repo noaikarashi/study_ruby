@@ -1,15 +1,31 @@
-saikoro=rand(0..6)
-puts saikoro
-random=rand(0..10)
-puts random
-rack=rand(-3..3)
-puts rack
-if random<3
-    walk=saikoro+rack
-    puts walk
-else
-    puts saikoro
+#saikoro=rand(1..6)
+#puts "出目は"+saikoro.to_s+"です。"
+#random=rand(0..2)
+#puts random
+#rack=rand(-3..3)
+#puts rack
+a=100
+for i in 1..20
+    saikoro=rand(1..6)
+    puts "出目は"+saikoro.to_s+"です。"
+    random=rand(0..2)
+    puts random
+    rack=rand(-3..3)
+    puts rack
+    while a>0
+        if random==0
+            walk=saikoro+rack
+            puts walk
+            a=a-walk.to_i
+            puts a
+        else
+            puts saikoro
+            a=a-saikoro.to_i
+            puts a
+        end
+    end
 end
+
 
 
 class Dice
