@@ -27,7 +27,6 @@ for i in 0..ary.length-1 do
         end
         
     end    
-
 end
 
 
