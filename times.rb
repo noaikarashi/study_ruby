@@ -1,6 +1,6 @@
-num=5
-sum=0
+num = 5
+sum = 0
 10.times do
-  puts  sum+=num
+  puts sum += num
 end
 puts sum

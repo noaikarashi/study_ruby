@@ -1,10 +1,9 @@
 def hello
-    puts "hello world"
+  puts 'hello world'
 end
 hello
-def addition(num1,num2)
-    result=num1+num2
-    return result
+def addition(num1, num2)
+  num1 + num2
 end
-score=addition(3,6)
+score = addition(3, 6)
 puts score

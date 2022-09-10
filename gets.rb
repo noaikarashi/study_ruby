@@ -1,3 +1,3 @@
-puts "あいさつしよう！"
-num=gets.to_i
-puts num+5 
+puts 'あいさつしよう！'
+num = gets.to_i
+puts num + 5
