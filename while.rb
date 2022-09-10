@@ -1,5 +1,2 @@
-i=-1
-while i<0
-    puts "無限"
-end
-
+i = -1
+puts '無限' while i < 0
